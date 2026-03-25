@@ -1,5 +1,5 @@
-/* MULIIKA DERRICK */
-/* 25/U/BIO/05297/PD */
+/* Name: MULIIKA DERRICK */
+/* Student Number: 25/U/BIO/05297/PD */
 
 #include <stdio.h>
 
