@@ -1,26 +1,28 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/* Name: MULIIKA DERRICK */
+/* Student Number: 25/U/BIO/05297/PD */
 
 #include <stdio.h>
 
 int main(void)
 {
-    #include <stdio.h>
 
+   int amount_to_send;
+    float transaction_fee;
+    int total_aamount_deducted;
 
-    float amount, fee_percent, fee, total;
+   printf("ENTER AMOUNT TO SEND :  ");
+    scanf("%d", &amount_to_send);
 
-    printf("Enter amount to send: ");
-    scanf("%f", &amount);
+    printf("ENTER TRANSACTION FEE :  ");
+    scanf("%f", &transaction_fee);s
 
-    printf("Enter transaction fee (%%): ");
-    scanf("%f", &fee_percent);
+    float fee= transaction_fee*amount_to_send/100;
 
-    fee = (fee_percent / 100) * amount;
-    total = amount + fee;
+    printf("YOUR FEE AMOUNT IS : %.1f and  ",fee);
 
-    printf("\nTransaction fee: %.2f UGX\n", fee);
-    printf("Total deducted: %.2f UGX\n", total);
+    float amount_deducted = amount_to_send+fee;
+    printf("AMOUNT DEDUCTED IS : %.1f", amount_deducted);
+
 
     
 
