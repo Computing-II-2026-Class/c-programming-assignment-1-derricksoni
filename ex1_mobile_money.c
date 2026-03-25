@@ -18,10 +18,10 @@ int main(void)
 
     float fee= transaction_fee*amount_to_send/100;
 
-    printf("YOUR FEE AMOUNT IS : %.1f and  ",fee);
+    printf("YOUR FEE AMOUNT IS : %f and  ",fee);
 
     float amount_deducted = amount_to_send+fee;
-    printf("AMOUNT DEDUCTED IS : %.1f", amount_deducted);
+    printf("AMOUNT DEDUCTED IS : %f", amount_deducted);
 
 
     
