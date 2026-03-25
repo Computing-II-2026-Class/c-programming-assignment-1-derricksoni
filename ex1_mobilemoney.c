@@ -11,7 +11,7 @@ int amount_to_send;
     scanf("%d", &amount_to_send);
 
     printf("ENTER TRANSACTION FEE :  ");
-    scanf("%f", &transaction_fee);s
+    scanf("%f", &transaction_fee);
 
     float fee= transaction_fee*amount_to_send/100;
 
